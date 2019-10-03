@@ -32,7 +32,7 @@ async def on_message(message):
     if message.content.startswith("돈 내놔"):
         await message.channel.send("냅! 계좌 알려주세용~^^ 헿♥♥♥")
     if message.content.startswith("자르셋"):
-        await message.channel.send("자르셋 힘 조~!!! 꽉꽉 채우는 중~~>_<!:high_heel: :high_heel: ")
+        await message.channel.send("업업 힘 조~!!! 꽉꽉 채우는 중~~>_<!:high_heel: :high_heel: ")
     if message.content.startswith("노예남 재기해"):
         await message.channel.send("냅ㅠ 주인님 바용가~ (:ghost: !)")
     if message.content.startswith("노예남 신청"):
