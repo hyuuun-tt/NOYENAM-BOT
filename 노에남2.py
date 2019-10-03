@@ -89,6 +89,8 @@ async def on_message(message):
         await message.channel.send("어디에 힘 줄까요 :grinning: ??")
     if message.content.startswith("자이스"):
         await message.channel.send("오! 살남하셨나요? ㅈㅇㅅㅈㅇㅅ ! :blush: :clap: :blush: :clap: ")
+    if message.content.startswith("살남사건이야"):
+        await message.channel.send(":tada: :tada: :tada: ")
         
         
 
