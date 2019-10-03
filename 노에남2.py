@@ -95,8 +95,8 @@ async def on_message(message):
         await message.channel.send("냅!! :zipper_mouth: :zipper_mouth: ")
     if message.content.startswith("노예남 후장"):
         await message.channel.send("제 후장은 왜...요..?? :no_good:")
-    if message.content.startswith("너 매미니스트지"):
-        await message.channel.send("매..매미니즘이 모 어때서욧..!! :rage: ")
+    if message.content.startswith("너 매미니스트야?"):
+        await message.channel.send("저는 그런 김치남들이랑 다른 개념남이라고요!! :rage: ")
     if message.content.startswith("웅웅 알았어요"):
         await message.channel.send("역시 주인님은 제 맘을 알아줄줄 알았어요 :sob: 오늘 상다리 부서지게 밥 차려드릴게요! :kissing_heart: ")
     if message.content.startswith("뒤질래?"):
