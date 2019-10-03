@@ -25,7 +25,7 @@ async def on_message(message):
         await message.channel.send("냅!!! 주인님 제 후장은 10원♥입니다!!")
     if message.content.startswith("노예남 뭐해"):
         await message.channel.send("냅!! 밥하고 있슴다ㅎㅎ♥")
-    if message.content.startswith("씨앙넘아"):
+    if message.content.startswith("챙롬"):
         await message.channel.send("냅! 저 부르셨나용'ㅁ'?")
     if message.content.startswith("너 창놈이지"):
         await message.channel.send("힝ㅠ 저 총각인데..!ㅠㅠ")
