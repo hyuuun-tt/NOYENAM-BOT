@@ -1,10 +1,9 @@
 import discord
 import asyncio
+import os
 
 client = discord.Client()
 
-
-token = "NjI5MjU4MDUxNjQ3NzAxMDAy.XZXR3g.e_zdflDGNKJllAvqIrIpjIPYaL8"
 
 @client.event
 async def on_ready():
@@ -99,5 +98,5 @@ async def on_message(message):
 
 
 
-        
-client.run("NjI5MjU4MDUxNjQ3NzAxMDAy.XZXR3g.e_zdflDGNKJllAvqIrIpjIPYaL8")
+access_token = os.environ["BOT_TOKEN"]      
+client.run(acess_token)
