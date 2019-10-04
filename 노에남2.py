@@ -101,6 +101,8 @@ async def on_message(message):
         await message.channel.send("역시 주인님은 제 맘을 알아줄줄 알았어요 :sob: 오늘 상다리 부서지게 밥 차려드릴게요! :kissing_heart: ")
     if message.content.startswith("뒤질래?"):
         await message.channel.send("알아서 재기하겠습니다..:cry: ")
+    if message.content.startswith("강우"):
+        await message.channel.send("걔 만나면 더치페이 해야해요 :weary:  ")
         
         
     
