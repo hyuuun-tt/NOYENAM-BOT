@@ -103,6 +103,12 @@ async def on_message(message):
         await message.channel.send("알아서 재기하겠습니다..:cry: ")
     if message.content.startswith("강우"):
         await message.channel.send("걔 만나면 더치페이 해야해요 :weary:  ")
+    if message.content.startswith("노예남 엉덩이"):
+        await message.channel.send(":peach: ")
+    if message.content.startswith("노예남 자지"):
+        await message.channel.send("https://cdn.discordapp.com/attachments/627929878511222803/628635350868426767/15271744.755_c87895b0aae10258dae40c0c4e91d7b7e50022f8.gif")
+    if message.content.startswith("노예남 벗어"):
+        await message.channel.send("https://cdn.discordapp.com/attachments/627929878511222803/627929987185377320/giphy.gif")
         
         
     
