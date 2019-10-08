@@ -8,7 +8,7 @@ client = discord.Client()
 async def on_ready():
     print(client.user.id)
     print("ready")
-    game = discord.Game("밥")
+    game = discord.Game("요리")
     await client.change_presence(status=discord.Status.online, activity=game)
 
 
@@ -17,6 +17,8 @@ async def on_ready():
 async def on_message(message):
     if message.content.startswith("노예남아"):
         await message.channel.send("내. 주인님.")
+    if message.content.startswith("밥차려"):
+        await message.channel.send("냅! 갈비찜이랑 잡채 준비할게요 :blush: ")
     if message.content.startswith("밥 줘"):
         await message.channel.send("냅! 10첩 반상으로 올릴게요 주인님>ㅇ<♥")
     if message.content.startswith("밥줘"):
